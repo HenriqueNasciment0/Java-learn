@@ -8,7 +8,7 @@ public class App {
 
         Random random = new Random();
 
-        int nota = random.nextInt(10);
+        int nota = random.nextInt(11);
 
         System.out.println(nota);
 
@@ -16,6 +16,17 @@ public class App {
             System.out.println("REPROVADO!");
         } else {
             System.out.println("APROVADO!");
+
+            if (nota == 8) {
+                System.out.println("Parabéns pelo resultado.");
+            }
+            if (nota == 9) {
+                System.out.println("Deu aulaaaa.");
+            }
+            if (nota == 10) {
+                System.out.println("Level Black Diamond.");
+            }
+
         }
     }
 }
