@@ -9,7 +9,11 @@ public class App {
 
         switch(nota) {
 
-            case 8:
+            case 5,4,3,2,1,0:
+            System.out.println("REPROVOU! ATÉ ANO QUE VEM AQUI DE NOVO... :(");
+            break;
+
+            case 7,8,9:
             System.out.println("Parabéns");
             break;
 
@@ -17,12 +21,8 @@ public class App {
             System.out.println("Melhor do mundo! SIIIIU");
             break;
 
-            case 6:
-            System.out.println("Ladeira a baixo...");
-            break;
-
             default:
-            System.out.println("Menor que 6 reprova");
+            System.out.println("Importante é passar!");
         }
 
     }
